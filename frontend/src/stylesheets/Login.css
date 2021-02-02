@@ -1,0 +1,53 @@
+.App-login {
+  background-color: #222;
+  color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  padding-right: 40%;
+  padding-left: 5%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.App-login > h1 {
+  color: dodgerblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  color: rgb(236, 106, 106);
+}
+
+.form-view > label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 10px;
+}
+
+#welcome {
+  color: dodgerblue;
+  margin: 10px;
+  font-size: xx-large;
+  font-weight: bolder;
+  cursor: default;
+}
+.anchor {
+  margin: 10px;
+  border: 10px;
+  color: white;
+}
